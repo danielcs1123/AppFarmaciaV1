@@ -63,6 +63,12 @@
   <ItemGroup>
     <Compile Include="Acceso.cs" />
     <Compile Include="Conexion.cs" />
+    <Compile Include="FrmAddCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCliente.Designer.cs">
+      <DependentUpon>FrmAddCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAddVenta.cs">
       <SubType>Form</SubType>
     </Compile>
